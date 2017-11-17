@@ -1,0 +1,183 @@
+.flag-holland {
+    border: 1px solid black;
+    width: 300px;
+    height: 180px;
+    margin: 30px 50px 50px 30px;
+}
+.flag-holland > div{
+    height: 60px;
+}
+.flag-hol_1 {
+    background-color: #ae1c28;
+}
+.flag-hol_2 {
+    background-color: #fff;
+}
+.flag-hol_3 {
+    background-color: #21468b;
+}
+.flag-holland:hover .flag-hol_1 {
+    background-color: #fff;
+}
+.flag-holland:hover .flag-hol_2 {
+    background-color: #0039a6;
+}
+.flag-holland:hover .flag-hol_3 {
+    background-color: #d52b1e;
+}
+.flag-italy {
+    border: 1px solid black;
+    width: 300px;
+    height: 180px;
+    margin: 30px 50px 50px 30px;
+}
+.flag-italy > div{
+    height: 100%;
+    width: 33.3%;
+}
+.flag-it_1 {
+    background-color: #009246;
+    float: left;
+}
+.flag-it_2 {
+    background-color: #fff;
+    float: left;
+}
+.flag-it_3 {
+    background-color: #ce2b37;
+    float: left;
+}
+.flag-italy:hover .flag-it_1 {
+    background-color: #002395;
+}
+.flag-italy:hover .flag-it_3 {
+    background-color: #ed2939;
+}
+.flag-japan {
+    border: 1px solid black;
+    width: 300px;
+    height: 180px;
+    background-color: #fff;
+    margin: 30px 50px 50px 30px;
+}
+.flag-jpn_1 {
+    width: 120px;
+    height: 120px;
+    background-color: #bc002d;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.flag-japan:hover {
+    background-color: #f00;
+}
+.flag-japan:hover .flag-jpn_1 {
+    background-color: #fff;
+    border-radius: 0%;
+    -webkit-clip-path: polygon(
+        0% 33.33%,
+        33.33% 33.33%,
+        33.33% 0%,
+        66.66% 0%,
+        66.66% 33.33%,
+        100% 33.33%,
+        100% 66.66%,
+        66.66% 66.66%,
+        66.66% 100%,
+        33.33% 100%,
+        33.33% 66.66%,
+        0% 66.66%
+    );
+}
+.flag-sweden {
+    border: 1px solid black;
+    width: 300px;
+    height: 180px;
+    margin: 30px 50px 50px 30px;
+    background: #006aa7;
+}
+#cross {
+    background: #fecc00;
+    height: 100%;
+    position: relative;
+    width: 13%;
+    left: 93px;
+}
+#cross:after {
+    background: #fecc00;
+    content: "";
+    height: 20%;
+    left: -93px;
+    position: absolute;
+    top: 72px;
+    width: 300px;
+}
+.flag-sweden:hover {
+    background: #fff;  
+}
+.flag-sweden:hover #cross {
+    background: #003580;
+}
+.flag-sweden:hover #cross:after {
+    background: #003580;
+}
+.flag-panama {
+    border: 1px solid black;
+    width: 300px;
+    height: 180px;
+    margin: 30px 50px 50px 30px;
+    background-color: #fff;
+  }
+  .flag-pan_1 {
+    width: 50px;
+    height: 50px;
+    background-color: #005293;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+    -webkit-clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
+  .flag-pan_2 {
+    width: 150px;
+    height: 90px;
+    background-color: #d21034;
+    float: right;
+  }
+  .flag-pan_3 {
+    width: 150px;
+    height: 90px;
+    margin-top: 20px;
+    background-color: #005293;
+    float: left;
+  }
+  .flag-pan_4 {
+    width: 50px;
+    height: 50px;
+    background-color: #d21034;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+    -webkit-clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
